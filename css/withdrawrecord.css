@@ -1,0 +1,7 @@
+.withdrawrecord_box{padding: .15rem;}
+.withdrawrecord_box_child{background: #ffffff;border-radius: .05rem;padding: .13rem 0 .065rem .15rem;margin-bottom: .1rem;}
+.withdrawrecord_box_left{width: 70%;border-right: .01rem dashed #ababab;box-sizing: border-box;}
+.withdrawrecord_box_right{width: 30%;}
+.withdrawrecord_box_right>i{display: block;width: .525rem;height: .51rem;background: url(../img/shengqingchenggong.png)no-repeat center;background-size: 100% 100%;margin: .1rem auto;}
+.withdrawrecord_box_left>p:nth-child(1){font-size: .12rem;color: #000000;}
+.withdrawrecord_box_left>p:nth-child(2){font-size: .24rem;color: #000000;margin-top: .225rem;}

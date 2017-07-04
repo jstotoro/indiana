@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" /><!-- 删除苹果默认的工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" /><!-- 设置苹果工具栏颜色 -->
+    <meta name="format-detection" content="telephone=no, email=no" /><!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- 适应移动端end -->
+    <title>个人中心</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <script type="text/javascript" src="../js/jquery-1.6.js"></script>
+    <script type="text/javascript" src="../js/mobile-rem.js"></script>
+    <script type="text/javascript" src="../js/game-script.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="person_top">
+			<div class="person_top_Id">
+				<span>我的ID：<i class="name">9AT</i></span>
+			</div>
+			<div class="person_top_middle clear">
+				<div class="top_middle_box fl">
+					<p>游戏余额</p>
+					<p><span>5.00</span>(含5.00红包)</p>
+				</div>
+				<div class="top_middle_box fl">
+					<p>推广佣金</p>
+					<p>0.00</p>
+				</div>
+			</div>
+			<div class="person_top_bottom">
+				<a class="bottom_Withdraw">
+					<i></i>
+					<span>游戏提现</span>
+				</a>
+				<a href="recharge.html" class="bottom_Pay">
+					<i></i>
+					<span>充值</span>
+				</a>
+				<a class="bottom_TeamWithdraw">
+					<i></i>
+					<span>团队提现</span>
+				</a>
+			</div>
+
+		</div>
+		<div class="person_cons">
+			<div class="person_cons_top clear">
+				<div class="fl cons_top_left">
+					<a href="tenyuanquiz.html">
+						<i></i>
+						<span>欢乐猜宝</span>
+					</a>
+				</div>
+				<div class="fr cons_top_right">
+					<a>
+						<i></i>
+						<p>
+							<span>10次猜宝</span>
+							<span>已<i>10</i>次</span>
+						</p>
+					</a>
+				</div>
+			</div>
+			<a href="newhandcourse.html" class="person_cons_middle">
+			</a>
+			<p class="person_cons_title">有史以来最公平的夺宝游戏，轻松日赚万金</p>
+			
+			<div class="person_cons_bottom clear">
+				<a href="myteam.html" class="cons_bottom_MyTeam">
+					<i></i>
+					<span>我的团队</span>
+				</a>
+				<a href="guessrecord.html" class="cons_bottom_Record">
+					<i></i>
+					<span>竞猜记录</span>
+				</a>
+				<a href="withdrawrecord.html" class="cons_bottom_Withdraw">
+					<i></i>
+					<span>提现记录</span>
+				</a>
+				<a href="capitaldetail.html" class="cons_bottom_Funds">
+					<i></i>
+					<span>资金明细</span>
+				</a>
+				<a href="erweicode.html" class="cons_bottom_Building">
+					<i></i>
+					<span>团队建设</span>
+					<p>躺着也能赚钱</p>
+				</a>
+				<a href="contactservice.html" class="cons_bottom_Service">
+					<i></i>
+					<span>联系客服</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- 游戏提现弹框 -->
+	<div class="geme_Withdraw hide">
+		<div class="geme_Withdraw_box">
+			<div class="box_child">
+				<p>提现金额直接进入微信钱包</p>
+				<div>
+					<label for="inputMoney" class="box_title">提现余额</label>
+					<input type="text" id="inputMoney" class="ip_money">
+				</div>
+				<div class="clear box_money_FA">
+					<div class="box_title fl">现金余额</div>
+					<div class="fl box_money_cons">
+						<p class="ye_P">￥<i class="YE">9.00</i>元(手续费<i class="SXF" style="color:#00ff6c;">0</i>元)</p>
+						<p class="chaochu" style="display: none;color: #ff0000;">输入金额超过当前余额</p>
+						<p>当日可提现次数：100</p>
+					</div>
+				</div>
+				<div class="Withdraw_btn">确认提现</div>
+				<div class="Warning">
+					<p>防止信用卡套现，提现收取手续费用1%</p>
+					<p>红包不能提现，只能用于抵扣下单</p>
+					<p>每次提现必须是1元的整数倍</p>
+				</div>
+				<div class="close_btn"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 团队提现 -->
+	<div class="team_Withdraw hide">
+		<div class="team_Withdraw_box">
+			<div class="box_child">
+				<p>提现金额直接进入微信钱包</p>
+				<div>
+					<label for="inputMoney" class="box_title">提现余额</label>
+					<input type="text" id="inputMoney" class="ip_money">
+				</div>
+				<div class="clear box_money_FA">
+					<div class="box_title fl">推广佣金余额</div>
+					<div class="fl box_money_cons">
+						<p class="ye_P">￥<i class="YE">10.00</i>元</p>
+						<p class="chaochu" style="display: none;color: #ff0000;">输入金额超过当前余额</p>
+						<p>可提现次数：100</p>
+					</div>
+				</div>
+				<div class="Withdraw_btn">确认提现</div>
+				<div class="Warning">
+					<p>每次提现必须是5元的整数倍</p>
+				</div>
+				<div class="close_btn"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 次数 -->
+	<div class="num_time hide">
+		
+	</div>
+
+	<!-- 提现必须大于 -->
+	<div class="GTR hide">
+	</div>
+
+	<!-- 团队提现 -->
+	<div class="Team_GTR hide"></div>
+
+	<!-- 10次猜宝达到 -->
+	<div class="ten_odd hide">
+		
+	</div>
+</body>
+</html>

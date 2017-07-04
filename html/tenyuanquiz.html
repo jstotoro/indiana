@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" /><!-- 删除苹果默认的工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" /><!-- 设置苹果工具栏颜色 -->
+    <meta name="format-detection" content="telephone=no, email=no" /><!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- 适应移动端end -->
+    <title>十元竞猜</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/tenyuanquiz.css">
+    
+    <script type="text/javascript" src="../js/mobile-rem.js"></script>
+    <script type="text/javascript" src="../js/zepto.min.js" ></script>
+    <script type="text/javascript" src='../js/game-script.js'></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="tenyuan_top">
+			<div class="tenyuan_child_top">
+			</div>
+			<div class="tenyuan_child_bottom">
+				<div class="child_bottom_box">
+					<p>可用余额</p>
+					<p>0.00元</p>
+				</div>
+				<div class="child_bottom_box">
+					<p>预期收益</p>
+					<p>9.50元</p>
+				</div>
+				<div class="child_bottom_box">
+					<p>手续费</p>
+					<p>1.00元</p>
+				</div>
+			</div>
+		</div>
+		<div class="tenyuan_middle">
+			<div class="tenyuan_middle_top"></div>
+			<div class="tenyuan_middle_bottom">
+				<div class="middle_bottom_child">
+					<div class="tenyuan_middle_loading"></div>
+				</div>
+				<div class="middle_bottom_btn"><i></i></div>
+				
+			</div>
+			<div class="tenyuan_middle_btn clear">
+				<button class="fl caibig">猜大</button>
+				<button class="fr caismall">猜小</button>
+			</div>
+		</div>
+		<div class="tenyuan_bottom clear">
+			<div class="Game_Description fl">游戏说明</div>
+			<div class="Recharge fl">余额充值</div>
+			<div class="How_to_Validate fl">如何验证</div>
+		</div>
+
+		<div class="footer_ban"></div>
+		<div class="footer">
+			<a href="index.html">返回首页</a>
+		</div>
+	</div>
+
+	<!-- 猜小弹框 -->
+	<div class="small fatherDiv" style="display: none;">
+		<div class="small_child">
+			<div class="box_child">
+				<li class="quantity">
+					<p>数量：</p>
+					<p class="hand">1手</p>
+				</li>
+				<li class="cdx">
+					<p>猜大小：</p>
+					<p class="cdx_cai">小</p>
+				</li>
+				<li class="sxf">
+					<p>手续费：</p>
+					<p>1.00</p>
+				</li>
+				<li class="yqsy">
+					<p>预期收益：</p>
+					<p>9.50</p>
+				</li>
+				<li class="txcs">
+					<p>当日可提现次数：</p>
+					<p>100次</p>
+				</li>
+			</div>
+			<div class="confirm_btn">确定</div>
+			<div class="close_btn"></div>
+		</div>
+	</div>
+
+	<!-- 猜大弹框 -->
+	<div class="big fatherDiv" style="display: none;">
+		<div class="big_child">
+			<div class="box_child">
+				<li class="quantity">
+					<p>数量：</p>
+					<p class="hand">1手</p>
+				</li>
+				<li class="cdx">
+					<p>猜大小：</p>
+					<p class="cdx_cai">大</p>
+				</li>
+				<li class="sxf">
+					<p>手续费：</p>
+					<p>1.00</p>
+				</li>
+				<li class="yqsy">
+					<p>预期收益：</p>
+					<p>9.50</p>
+				</li>
+				<li class="txcs">
+					<p>当日可提现次数：</p>
+					<p>100次</p>
+				</li>
+			</div>
+			<div class="confirm_btn">确定</div>
+			<div class="close_btn"></div>
+		</div>
+	</div>
+
+	<!-- 游戏说明 -->
+	<div class="gameexplain_box" style="display: none;">
+		<div class="gameexplain_box_child">
+			<ul>猜宝规则
+				<li><i>1</i>      每次微信提现都会产生一个唯一打款交易单号，该单号公平，公正，公开仅由微信平台生成。</li>
+				<li><i>2</i>尾数猜宝采集微信打款交易单号的尾号数作为依据，尾数5~9为大，0~4为小。</li>
+				<li><i>3</i>猜宝大小后请提现1元，提现后企业交易单号立刻显示。</li>
+				<li><i>4</i>每手10元，每手1元手续费，每次猜宝最小为1手，最大为20手。</li>
+			</ul>
+			<div class="confirm_btn">确定</div>
+			<div class="close_btn"></div>
+		</div>
+	</div>
+
+	<!-- 如何验证 -->
+	<div class="verification_box" style="display: none;">
+		<div class="verification_box_child">
+			<ul>如何验证
+				<li class="verification_text1">
+					<span>零钱入账</span>
+					<span></span>
+				</li>
+				<li class="verification_text2">
+					<span>企业付款零钱入账通知</span>
+				</li>
+				<li class="verification_text3">
+					<span>入账金额：</span>
+					<span>1.00元</span>
+				</li>
+				<li class="verification_text4">
+					<span>入账时间：</span>
+					<span>2017-03-23  16：34：08</span>
+				</li>
+				<li class="verification_text5">
+					<span>入账类型：</span>
+					<span><i></i>企业付款</span>
+				</li>
+				<li class="verification_text6">
+					<span>入账详情：</span>
+					<span>积分兑换</span>
+				</li>
+				<li class="verification_text7">
+					<span>交易单号：</span>
+					<span>100001830120170323679926942<i>8</i></span>
+				</li>
+				<li class="verification_text8">
+					<span>详情</span>
+					<p>
+						<i>2</i>
+						查看单号最后1位即可验证
+					</p>
+				</li>
+				<div class="on_one">
+					<p>
+						<i>1</i>
+						点击零钱明细
+					</p>
+				</div>
+			</ul>
+			<div class="confirm_btn">确定</div>
+			<div class="close_btn"></div>
+		</div>
+	</div>
+	
+	<!-- 中奖提示 -->
+	<div class="winningtips" style="display: none;">
+		<div class="winningtips_box">
+		</div>
+		<div class="Inow">知道啦</div>
+		<div class="win">
+			<p>恭喜您获得</p>
+			<p><i>5</i>元</p>
+		</div>
+	</div>
+
+	<!-- 竞猜成功 -->
+	<div class="succeed" style="display: none;">
+		<div class="succeed_child">
+			<ul>
+				<li class="ok_img"></li>
+				<li class="ok_win">竞猜成功</li>
+				<li class="ok_odd">交易单号</li>
+				<li class="odd">100001830120170504746970246<i>0</i></li>
+				<li class="ok_guess">猜大1手</li>
+				<li class="ok_loss">亏损-10.00元</li>
+			</ul>
+			<div class="confirm_btn">确定</div>
+			<div class="close_btn"></div>
+		</div>
+	</div>
+</body>
+</html>

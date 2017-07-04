@@ -1,0 +1,10 @@
+.recharge_cons{margin: 0 .15rem;}
+.recharge_cons>p{font-size: .13rem;color: #666666;padding: .23rem 0 ;}
+
+/*充值的金额样式*/
+.recharge_cons_money>li{width: .88rem;height: .495rem;float: left;background: url(../img/recharge_money_bg.png)no-repeat center;background-size: 100% 100%;margin: 0 .12rem .12rem 0;text-align: center;line-height: .495rem;color: #ffffff;font-size: .24rem;}
+.recharge_cons_money>li:nth-child(3n){margin: 0 0 .12rem 0;}
+
+/*提示*/
+.recharge_cons_hint{padding-top: .62rem;}
+.recharge_cons_hint>p{text-align: center;font-size: .12rem;color: #666666;line-height: .2rem;}

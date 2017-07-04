@@ -1,0 +1,5 @@
+.contactservice{margin: .15rem .295rem 0;}
+.contactservice_box{width: 2.61rem;height: 2.945rem;border-radius: .05rem;background-color: #ffffff;margin-bottom: .15rem;}
+.contactservice_box>div{padding: .2rem 0;}
+.contactservice_box>div>i{display: block;width: 1.94rem;height: 1.93rem;background: url(../img/@二维码.png)no-repeat center;background-size: 100% 100%;margin: 0 auto;}
+.contactservice_box>p{font-size: .15rem;color: #333333;text-align: center;line-height: .25rem;}

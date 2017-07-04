@@ -1,0 +1,30 @@
+html,body{background: #fffef1;}
+
+.rul_top{height: .3rem;background-color: #ff416d;line-height: .3rem;text-align: center;font-size: .2rem;color: #ffffff;position: relative;}
+.rul_top>a{display: block;width: .22rem;height: .22rem;background: url(../img/rule_colseBtn.png)no-repeat center;background-size: 100% 100%;position: absolute;top: 0;right: .165rem;bottom: 0;margin: auto 0;}
+/*.rul_top_one{height: .69rem;background: url(../img/rul_top_oneBg.png)no-repeat center;background-size: 100% 100%;}
+.one_page{width: .17rem;height: .17rem;background: #503eff;border-radius: 50%;text-align: center;color: #ffffff;line-height: .17rem;margin-top: .05rem;margin-left: .05rem;margin-right: .05rem;}
+.one_page_title{margin-top: .05rem;}
+.one_page_title>p{font-size: .14rem;color: #ca1e1e;font-weight: bold;}
+.one_page_title>p:nth-child(2){margin-left: .4rem;}
+.two_page_title{font-size: .14rem;font-weight: bold;margin-top: .05rem;margin-left: .05rem;}
+
+.two_table{margin: .01rem .09rem;}
+
+.rul_top_genju{font-size: .12rem;color: #666666;margin: 0 .09rem 0;}
+.details_tltle{width: 1.47rem;height: .25rem;background: url(../img/banner.png)no-repeat center;background-size: 100% 100%;line-height: .25rem;padding-left: .15rem;color: #000;font-size: .12rem;margin-bottom: .05rem;}
+
+.details_tltle~div{font-size: .12rem;color: #ff416d;margin-left:.1rem; }
+.yaoqing_details>div>i{display: inline-block;width: .105rem;height: .06rem;background: url(../img/small_icon.png)no-repeat center;background-size: 100% 100%;margin-right: .1rem;}
+.yaoqing_details{position: relative;}
+.figure{width: 1.41rem;height: 1.12rem;background: url(../img/figure.png)no-repeat center;background-size: 100% 100%;position: absolute;top: 0;right: 0;}
+
+.yongjin_title{width: .81rem;height: .25rem;line-height: .25rem;background: url(../img/banner.png);background-size: 100% 100%;padding-left: .15rem;margin: .05rem 0 .07rem;font-size: .12rem;color: #000000;}
+.yongjin_details>ul>li{width: 2.6rem;height: .2rem;line-height: .2rem;background: #ffdede;border-radius: .5rem;margin: 0 0 .02rem .2rem;padding-left: .08rem;font-size: .12rem;color: #222222;}
+
+.rul_bottom_three{height: .515rem;background: #ff416d;}
+
+.three_page{width: .17rem;height: .17rem;background: #503eff;border-radius: 50%;text-align: center;color: #ffffff;line-height: .17rem;margin-top: .07rem;margin-left: .05rem;margin-right: .05rem;}
+.rul_bottom_three{color: #ffffff;font-size: .12rem;}
+.three_page_title{margin-top: .04rem;font-size: .14rem;}
+.page_text{margin-top: .07rem;margin-left: .15rem;}*/

@@ -1,0 +1,77 @@
+.person_top{width: 100%;height: 2.42rem;background: url(../img/person_top_bg.png)no-repeat center;background-size: 100% 100%;}
+
+/*id样式*/
+.person_top_Id{margin: 0 auto;padding-top: .48rem;text-align: center;}
+.person_top_Id>span{width: 1.565rem;height: .28rem;line-height: .25rem;display: inline-block;margin: 0 auto;background-color: #ee2855;text-align: center;border-radius: .5rem;border: .02rem solid #ffffff;box-sizing: border-box;font-size: .15rem;color: #ffffff;}
+
+/*资金块样式*/
+.person_top_middle{margin-top: .25rem;}
+.top_middle_box{width: 50%;font-size: .12rem;text-align: center;color: #ffffff;}
+.top_middle_box>p:nth-child(1){color: rgba(255,255,255,.5);}
+
+/*头部icon样式*/
+.person_top_bottom{display: -webkit-box;display: box;}
+.person_top_bottom>a{-webkit-box-flex: 1;box-flex: 1;text-align: center;margin-top: .28rem;display: block;}
+.person_top_bottom>a>i{width: .46rem;height: .46rem;display: block;margin: 0 auto;}
+.bottom_Withdraw>i{background: url(../img/top_icon1.png)no-repeat center;background-size: 100% 100%;}
+.bottom_Pay>i{background: url(../img/top_icon2.png)no-repeat center;background-size: 100% 100%;}
+.bottom_TeamWithdraw>i{background: url(../img/top_icon3.png)no-repeat center;background-size: 100% 100%;}
+.person_top_bottom>a>span{display: block;font-size: .13rem;color: #666666;margin-top: .08rem;}
+
+/*猜宝次数与欢乐猜宝样式*/
+.person_cons{margin: 0 .05rem;}
+.person_cons_top{margin: .1rem 0;}
+.person_cons_top>div{width: 1.53rem;height: .7rem;border-bottom: .01rem solid #b6b6b6;background-color: #ffffff;position: relative;}
+.person_cons_top>div>a{display: block;}
+.person_cons_top>div>a>i{margin-top: .15rem;margin-left: .13rem;}
+.cons_top_left>a>i{width: .42rem;height: .425rem;display: inline-block;background: url(../img/cons_top_icon1.png)no-repeat center;background-size: 100% 100%;}
+.cons_top_right>a>i{width: .39rem;height: .39rem;display: inline-block;background: url(../img/cons_top_icon2.png)no-repeat center;background-size: 100% 100%;}
+.cons_top_left>a>span{font-size: .15rem;font-weight: bold;color: #666666;position: absolute; top: .22rem;left: .65rem;}
+.cons_top_right>a>p{font-size: .15rem;font-weight: bold;color: #666666;position: absolute; top: .15rem;left: .65rem;}
+.cons_top_right>a>p>span{display: block;}
+.cons_top_right>a>p>span:nth-child(2){font-size: .12rem;color: #999999;font-weight: normal;}
+
+/*新手教程*/
+.person_cons_middle{height: .51rem;display: block;background: url(../img/cons_middle_xsjc.png)no-repeat center;background-size: 100% 100%;}
+.person_cons_title{text-align: center;font-size: .12rem;color: #666666;padding: .1rem 0;}
+
+/*点击菜单*/
+.person_cons_bottom>a{width: 1rem;height: .94rem;float: left;margin-right: .05rem;margin-bottom: .05rem;background-color: #ffffff;display: inline-block;text-align: center;}
+.person_cons_bottom>a:nth-child(3n){margin-right: 0;}
+.person_cons_bottom>a>i{display: block;background-size: 100% 100%;margin: .2rem auto .09rem;}
+.cons_bottom_MyTeam>i{width: .33rem;height: .33rem;background: url(../img/cons_bottom_icon1.png)no-repeat center;}
+.cons_bottom_Record>i{width: .33rem;height: .33rem;background: url(../img/cons_bottom_icon2.png)no-repeat center;}
+.cons_bottom_Withdraw>i{width: .33rem;height: .33rem;background: url(../img/cons_bottom_icon3.png)no-repeat center;}
+.cons_bottom_Funds>i{width: .33rem;height: .33rem;background: url(../img/cons_bottom_icon4.png)no-repeat center;}
+.cons_bottom_Building>i{width: .33rem;height: .33rem;background: url(../img/cons_bottom_icon5.png)no-repeat center;}
+.cons_bottom_Service>i{width: .33rem;height: .33rem;background: url(../img/cons_bottom_icon6.png)no-repeat center;}
+.person_cons_bottom>a>span{font-size: .12rem;color: #333333;}
+
+
+/*公用*/
+.hide{display: none;}
+.show{display: block;}
+.box_title{width: .48rem;}
+
+/*游戏提现弹框*/
+.geme_Withdraw{width: 100%;height: 100%;position: fixed;top: 0;background: rgba(0,0,0,.4);}
+.geme_Withdraw_box{width: 2.765rem;background: url(../img/geme_Withdraw_bg.png)center;background-size: 100% 100%;margin: 1.2rem auto 0;position: relative;}
+.box_child{margin: 0 .32rem;}
+.box_child>p{font-size: .14rem;color: #333333;padding: .6rem 0 .22rem;}
+.box_title{font-size: .12rem;color: #333333;}
+#inputMoney{width: 1.385rem;height: .27rem;border: .01rem solid #bebebe;border-radius: .05rem;box-sizing: border-box;margin-left: .15rem;}
+.box_money_FA{margin-top: .165rem;}
+.box_money_cons{margin-left: .15rem;}
+.Withdraw_btn{width: 1.93rem;height: .32rem;background: url(../img/Withdraw_btn_bg.png)no-repeat center;background-size: 100% 100%;margin: .21rem auto .15rem;line-height: .32rem;font-size: .15rem;color: #ffffff;text-align: center;}
+.Warning{text-align: center;padding-bottom: .05rem;}
+.close_btn{width: .22rem;height: .22rem;background: url(../img/close_btn.png)no-repeat center;background-size: 100% 100%;position: absolute;top: .3rem;right: .2rem;}
+
+/*团队提现弹框*/
+.team_Withdraw{width: 100%;height: 100%;position: fixed;top: 0;background: rgba(0,0,0,.4);}
+.team_Withdraw_box{width: 2.765rem;background: url(../img/geme_Withdraw_bg1.png)center;background-size: 100% 100%;margin: 1.2rem auto 0;position: relative;}
+
+/*竞猜次数*/
+.num_time{width: 1.58rem;height: .44rem;position: absolute;top: 0;left: 0;bottom: 0;right: 0;margin: auto;background: rgba(0,0,0,.6);border-radius: .05rem;font-size: .15rem;color: #ffffff;text-align: center;padding: .05rem .1rem;}
+
+.GTR{width: 1.04rem;height: .16rem;position: absolute;top: 0;right: 0;bottom: 0;left: 0;padding: .1rem .18rem;border-radius: .05rem;background-color: rgba(0,0,0,.5);font-size: .12rem;color: #fff;margin: auto;text-align: center;}
+.Team_GTR{width: 1.04rem;height: .26rem;position: absolute;top: 0;right: 0;bottom: 0;left: 0;padding: .1rem .18rem;border-radius: .05rem;background-color: rgba(0,0,0,.5);font-size: .12rem;color: #fff;margin: auto;text-align: center;}

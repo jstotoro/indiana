@@ -1,0 +1,14 @@
+.randomminus_top{background: #ffffff;padding: .11rem 0 0;}
+.randomminus_top_pay{width: 2.335rem;height: 1.13rem;background: url(../img/pay_bg.png)no-repeat center;background-size: 100% 100%;margin: 0rem auto;}
+.randomminus_top_pay>.recharge_amount{font-size: .12rem;color: #333333;padding-top: .16rem;margin-left: .3rem;}
+.randomminus_top_pay>.money{font-size: .36rem;color: #ff2f47;font-weight: bold;text-align: center;}
+
+.top_randomminus_box{padding: 0 .31rem;}
+.top_randomminus_box>p{height: .44rem;line-height: .44rem;font-size: .15rem;color: #333333;}
+.top_randomminus_box:nth-child(3){border-top: .01rem solid #d8d8d8;}
+
+
+.randomminus_middle{margin: 0 .13rem;}
+.randomminus_middle>i{width: 1.625rem;height: 1.63rem;display: block;background: url(../img/@支付二维码.png)no-repeat center;background-size: 100% 100%;margin: .3rem auto .15rem;}
+.randomminus_middle>p{text-align: center;padding-bottom: .1rem;}
+.randomminus_btn{width: 1.93rem;height: .32rem;background: url(../img/Withdraw_btn_bg.png)no-repeat center;background-size: 100% 100%;margin: .1rem auto;line-height: .32rem;font-size: .12rem;color: #ffffff;text-align: center;}

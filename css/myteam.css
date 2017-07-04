@@ -1,0 +1,24 @@
+/*头部*/
+.myteam_top{height: 1.45rem;background: url(../img/myteam_top.png)no-repeat center;background-size: 100% 100%;}
+.myBoss{text-align: center;padding: .37rem 0 .24rem;}
+.myBoss>p:nth-child(1){color: rgba(255,255,255,.5);font-size: .13rem;}
+.myBoss>p:nth-child(2){font-size: .22rem;color: #ffffff;margin-top: .05rem;}
+/*金银铜团队*/
+.myteams{display: box;display: -webkit-box;}
+.myteams>div{box-flex: 1; -webkit-box-flex: 1;text-align: center;font-size: .13rem;color: #ffffff;height: .31rem;}
+.myteams>div>li{line-height: .31rem;width: .77rem;margin: 0 auto;}
+.myteams>div>li>i{display: inline-block;width: .16rem;height: .155rem;vertical-align: sub;margin-right: .05rem;}
+.jin>li>i{background: url(../img/jin.png)no-repeat center;background-size: 100% 100%;}
+.yin>li>i{background: url(../img/yin.png)no-repeat center;background-size: 100% 100%;}
+.tong>li>i{background: url(../img/tong.png)no-repeat center;background-size: 100% 100%;}
+.border{border-bottom: .02rem solid #ffffff;}
+
+/*用户ID*/
+.myteam_bottom{margin-top: .1rem;}
+.team_box>li{height: .36rem;line-height: .36rem;color: #333333;font-size: .13rem;padding: 0 .12rem;}
+.team_box>li:nth-child(1n){background-color: #ffffff;}
+.team_box>li:nth-child(2n){background-color: #f7f7f7;}
+
+/*显示*/
+.show{display: block;}
+.hide{display: none;}

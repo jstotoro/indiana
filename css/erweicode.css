@@ -1,0 +1,13 @@
+.page_box{width: 100%;height: 100%;}
+.page{width: 100%;height: 100%;}
+.page1{background: url(../img/code1.png) center center / 100% 100% no-repeat;}
+.page2{background: url(../img/code2.png) center center / 100% 100% no-repeat;}
+.page3{background: url(../img/code3.png) center center / 100% 100% no-repeat;}
+.page4{background: url(../img/code4.png) center center / 100% 100% no-repeat;}
+.page5{background: url(../img/code5.png) center center / 100% 100% no-repeat;}
+.wrap{height: 100%;}
+.page>i{display: block;padding-top: 2rem;}
+.page>i>span{display: block;width: 1rem;height: 1rem;background: url(../img/code.png) center center / 100% 100% no-repeat;margin: 0 auto;}
+.click_me{position: fixed;bottom: .35rem;left: 0;right: 0;z-index: 999;margin: 0 auto;width: 1.5rem;height: .3rem;line-height: .3rem;text-align: center;background-color: rgba(0,0,0,.5);color: #ffffff; border-radius: .05rem;}
+
+.hide{display: none;}

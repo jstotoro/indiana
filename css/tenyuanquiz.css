@@ -1,0 +1,85 @@
+html,body{
+	background: url(../img/tenyuanquiz_bg.png)no-repeat center;background-size: cover;
+}
+.tenyuan_top{padding-top:  1.18rem;}
+.tenyuan_child_top{width: 3.05rem;height: 1.115rem;margin: auto;background: url(../img/tenyuanquiz_welcome.png)no-repeat center;background-size:100% 100%;position: relative;z-index: 999;}
+.tenyuan_child_bottom{width: 2.56rem;height: .775rem;margin: -.1rem auto 0;background: url(../img/tenyuanquiz_zhye.png)no-repeat center;background-size: 100% 100%;display: -webkit-box;display:box;}
+.child_bottom_box{padding-top: .2rem;color: #ffffff;font-size: .15rem;-webkit-box-flex: 1;box-flex: 1;text-align: center;line-height: .25rem;}
+.child_bottom_box>p:nth-child(1){font-size: .12rem;}
+
+/*进度条*/
+.tenyuan_middle{padding-top: .34rem;}
+.tenyuan_middle_top{width: 2.225rem;height: .165rem;margin: 0 auto .09rem;background: url(../img/number.png)no-repeat center;background-size: 100% 100%;}
+.tenyuan_middle_bottom{width: 2.355rem;height: .165rem;margin: 0 auto;background: url(../img/tenyuanquiz_htbg.png)no-repeat center;background-size: 100% 100%;position: relative;}
+.middle_bottom_btn{width: .28rem;height: .28rem;background: url(../img/tenyuanquiz_htbtn.png)no-repeat center;background-size: 100% 100%;position: absolute; top:  -.065rem; }
+.middle_bottom_btn>i{display: block;width: .2rem;height: .16rem;background: url(../img/zero0.png)no-repeat center;background-size: 100% 100%;margin: .055rem auto;}
+.tenyuan_middle_btn{margin: .33rem .56rem;}
+.tenyuan_middle_btn>button{width: .97rem;height: .41rem;background: url(../img/tenyuanquiz_dxbtn.png)no-repeat center;background-size: 100% 100%;font-size: .15rem;font-weight: bold;color: #f2ffe4;text-shadow: .02rem 0 .01rem #5ca130,.01rem 0 .01rem #5ca130,-.02rem 0 .01rem #5ca130,-.01rem 0 .01rem #5ca130,0 .02rem .01rem #5ca130,0 .01rem .01rem #5ca130,0 -.02rem .01rem #5ca130,0 -.01rem .01rem #5ca130;border:none;}
+
+/*底部按钮*/
+.tenyuan_bottom{margin: 0 .14rem;/*padding-top: .4rem;*/}
+.Game_Description,.How_to_Validate{width: .875rem;height: .315rem;background: url(../img/tenyuanquiz_btn.png)no-repeat center;background-size: 100% 100%;text-align: center;line-height: .315rem;font-size: .13rem;color: #ffffff;text-shadow: .02rem 0 .01rem #5ca130,.01rem 0 .01rem #5ca130,-.02rem 0 .01rem #5ca130,-.01rem 0 .01rem #5ca130,0 .02rem .01rem #5ca130,0 .01rem .01rem #5ca130,0 -.02rem .01rem #5ca130,0 -.01rem .01rem #5ca130;margin: .02rem 0;}
+.Recharge{width: 1.045rem;height: .365rem;background: url(../img/tenyuanquiz_centerbtn.png)no-repeat center;background-size: 100% 100%;text-align: center;line-height: .365rem;font-size: .16rem;color: #ffffff;text-align: center;line-height: .315rem;font-size: .13rem;color: #ffffff;text-shadow: .02rem 0 .01rem #5ca130,.01rem 0 .01rem #5ca130,-.02rem 0 .01rem #5ca130,-.01rem 0 .01rem #5ca130,0 .02rem .01rem #5ca130,0 .01rem .01rem #5ca130,0 -.02rem .01rem #5ca130,0 -.01rem .01rem #5ca130;margin: 0 .0626rem;}
+
+/*猜小弹框*/
+.box_child{margin: .81rem .275rem 0;font-size: .18rem;color: #000000;}
+.box_child>li{overflow: hidden;padding-bottom: .18rem;}
+.box_child>li>p{float: left;}
+.box_child>li>p:nth-child(1){width: 75%;}
+.confirm_btn{width: 1.93rem;height: .325rem;background: url(../img/Withdraw_btn_bg.png)no-repeat center;background-size: 100% 100%;text-align: center;line-height: .325rem;font-size: .14rem;color:#ffffff;position: absolute;bottom: -.15rem;left: 0;right: 0;margin: 0 auto;}
+.close_btn{width: .22rem;height: .22rem; background: url(../img/close_btn.png)no-repeat center;background-size: 100% 100%;position: absolute;top: .3rem;right: .2rem;}
+
+/*公用样式*/
+.small,.big,.gameexplain_box,.verification_box,.succeed{width: 100%;height: 100%;background: rgba(0,0,0,.4);position: fixed;top: 0;z-index: 99999999;}
+.small_child,.big_child,.gameexplain_box_child,.verification_box_child,.succeed_child{width: 2.765rem;height: 3.19rem;background: url(../img/@game_tankuang.png)no-repeat center;background-size: 100% 100%;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+
+/*游戏说明*/
+.gameexplain_box_child>ul{text-align: center;margin: .44rem .05rem 0;font-size: .18rem;color: #000000;}
+.gameexplain_box_child>ul>li{text-align: left;font-size: .12rem;padding-bottom: .05rem;}
+.gameexplain_box_child>ul>li>i{font-size: .23rem;color: #eb7823;font-weight: bold;font-style: italic;padding-right: .05rem; }
+
+/*如何验证*/
+.verification_box_child>ul{text-align: center;margin: .44rem .2rem 0;font-size: .18rem;color: #000000;position: relative;}
+.verification_box_child>ul>li{text-align: left;font-size: .12rem;color: #333333;margin-bottom: .03rem;}
+
+.verification_text1{padding-top: .15rem;}
+.verification_text1>span{display: block;}
+.verification_box_child>ul>li>span:nth-child(1){margin-left: .05rem;}
+.verification_text1>span:nth-child(2){width: .53rem;height: .1rem;background-color: #7f7f7f;border-radius: .5rem;margin-bottom: .06rem;}
+.verification_text5>span>i{display: inline-block;width: .74rem;height: .15rem;background-color: #7f7f7f;border-radius: .5rem;vertical-align: text-bottom;}
+.verification_text7>span:nth-child(2){margin-left: .05rem;display: inline-block;}
+.verification_text7>span>i{display: inline-block;border: .01rem solid #ff0000;}
+.verification_text8>p{display: inline-block;width: 1.65rem;height: .25rem;background-color: #00b7ee;border-radius: .05rem;line-height: .25rem;text-align: center;color: #ffffff;position: relative;margin-left: .3rem;}
+.verification_text8>p>i{display: inline-block;width: .18rem;height: .18rem;border-radius: 50%;text-align: center;line-height: .18rem;font-size: .12rem;color: #fff;background-color: #fe8e38;position: absolute; top: -.05rem;left: -.05rem;}
+
+.on_one{position: absolute; top: .4rem;right: .4rem;}
+.on_one>p{width: 1.15rem;height: .255rem;line-height: .255rem;background-color: #00b7ee;border-radius: .05rem;text-align: center;color: #ffffff;font-size: .12rem;position: relative;}
+.on_one>p>i{display: inline-block;width: .18rem;height: .18rem;border-radius: 50%;text-align: center;line-height: .18rem;font-size: .12rem;color: #fff;background-color: #fe8e38;position: absolute; top: -.05rem;left: -.05rem;}
+.verification_text8{margin-top: .1rem;}
+
+/*中奖提示*/
+.winningtips{width: 100%;height: 100%;background: rgba(0,0,0,.4);position: fixed;top: 0;z-index: 999999;}
+.winningtips_box{width: 2.89rem;height: 2.38rem;background: url(../img/zhongjian.png)no-repeat center;background-size: 100% 100%;position: absolute;top: 1.15rem;right: .05rem;}
+.Inow{width: 1.195rem;height: .32rem;background-color: #ff396e;border-radius: .5rem;border-bottom: .03rem solid #9d092f;box-sizing: border-box;font-size: .13rem;color: #fff;line-height: .32rem;text-align: center;position: absolute;top: 3.7rem;left: 0;right: 0;margin: 0 auto;}
+.win{position: absolute;top: 2.5rem;left: -.08rem;right: 0;margin: 0 auto;}
+.win>p{font-size: .15rem;color: #fecd43;text-align: center;}
+.win>p>i{font-size: .35rem;color: #fecd43;font-weight: bold;}
+.win>p:nth-child(2){font-size: .25rem;color: #fecd43;font-weight: bold;}
+
+/*竞猜成功*/
+.succeed_child>ul{padding-top: .565rem;}
+.succeed_child>ul>li{text-align: center;}
+.ok_img{width: 2.385rem;height: .625rem;background: url(../img/OK.png)no-repeat center;background-size: 100% 100%;margin-left: .25rem;}
+.ok_win{font-size: .18rem;color: #000000;}
+.ok_odd{font-size: .12rem;color: #999999;padding-top: .09rem;}
+.odd{padding-top: .09rem;color: #000000;font-size: .13rem;}
+.odd>i{font-size: .18rem;color: #ff3971;}
+.ok_guess{padding-top: .15rem;color: #999999;font-size: .15rem;}
+.ok_loss{padding-top: .1rem;font-size: .3rem;color: #000000;}
+
+/*返回首页*/
+.footer_ban{width: 100%;height: .44rem;}
+.footer{width: 100%;height: .44rem;background-color: #ff416d;position: fixed;bottom: 0;left: 0;}
+.footer>a{display: block;text-align: center;line-height: .44rem;font-size: .12rem;color: #ffffff;}
+
+.tenyuan_middle_loading{width: .01rem;height: .165rem;background: url(../img/tenyuanquiz_htjd.png);background-size: 100% 100%;border-radius: .05rem;}

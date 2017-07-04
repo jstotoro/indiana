@@ -1,0 +1,22 @@
+/*暂无数据*/
+.no_data{padding-top: 1.1rem;}
+.no_data>i{width: .79rem;height: .76rem;display: block;background: url(../img/no_data.png)no-repeat center; background-size: 100% 100%;margin: 0 auto .25rem;}
+.no_data>p{font-size: .18rem;color: #333333;text-align: center;}
+
+/*竞猜记录*/
+.guessrecord_box{padding: .23rem;}
+.big{height: 1.2rem;background: url(../img/caida.png)no-repeat center;background-size: 100% 100%;}
+.big>.guessrecord_box_child_bottom>li:nth-child(1){width: .465rem;height: .225rem;background: url(../img/caida_text.png)no-repeat center;background-size: 100% 100%;}
+.big>.guessrecord_box_child_top{padding: .1rem .2rem;}
+.big>.guessrecord_box_child_top>li{font-size: .12rem;color: #ffffff;}
+.big>.guessrecord_box_child_top>li:nth-child(1){margin-bottom: .025rem;}
+.big>.guessrecord_box_child_bottom{padding: .2rem;font-size: .18rem;color: #000000;}
+
+.small{height: 1.2rem;background: url(../img/caixiao.png)no-repeat center;background-size: 100% 100%;}
+.small>.guessrecord_box_child_bottom>li:nth-child(1){width: .465rem;height: .225rem;background: url(../img/caixiao_text.png)no-repeat center;background-size: 100% 100%;}
+.small>.guessrecord_box_child_top{padding: .1rem .2rem;}
+.small>.guessrecord_box_child_top>li{font-size: .12rem;color: #ffffff;}
+.small>.guessrecord_box_child_top>li:nth-child(1){margin-bottom: .025rem;}
+.small>.guessrecord_box_child_bottom{padding: .2rem;font-size: .18rem;color: #000000;}
+
+.guessrecord_box_child{margin-bottom: .13rem;}
